@@ -1,0 +1,2 @@
+﻿Les .dbml me servent pour l'utilisation de LINQ SQL je les utilise afin de remplir mes combobox avec les données de la BD. 
+Je les utilise également afin de récuperer l'id associé à chaque info

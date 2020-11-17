@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C5DA98E7-AF4D-402A-BF75-9F353D7F7C0F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Projet_BD_Voiture.Gestion</RootNamespace>
+    <AssemblyName>Projet_BD_Voiture.Gestion</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Projet_BD_Voiture.Acces">
+      <HintPath>..\..\..\..\..\Desktop\PROGRAMMATION Q2 2020\PROJET BD\Projet_BD_Voiture.Acces\Projet_BD_Voiture.Acces\bin\Debug\Projet_BD_Voiture.Acces.dll</HintPath>
+    </Reference>
+    <Reference Include="Projet_BD_Voiture.Classes">
+      <HintPath>..\..\..\..\..\Desktop\PROGRAMMATION Q2 2020\PROJET BD\Projet_BD_Voiture.Classes\Projet_BD_Voiture.Classes\bin\Debug\Projet_BD_Voiture.Classes.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="G_AchatVenteVoiture.cs" />
+    <Compile Include="G_Base.cs" />
+    <Compile Include="G_CarburantVoiture.cs" />
+    <Compile Include="G_CategorieVoiture.cs" />
+    <Compile Include="G_ClientsVoiture.cs" />
+    <Compile Include="G_CouleurVoiture.cs" />
+    <Compile Include="G_DesiterataVoiture.cs" />
+    <Compile Include="G_MarqueVoiture.cs" />
+    <Compile Include="G_ModeleVoiture.cs" />
+    <Compile Include="G_PaiementVoiture.cs" />
+    <Compile Include="G_StockVoiture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

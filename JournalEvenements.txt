@@ -1,0 +1,36 @@
+											J O U R N A L   D E S   E V E N E M E N T S
+											_________________________________________
+
+
+
+ACHAT D'UN VEHICULE	[vendredi 5 juin 2020] => : Citröen C1 (ID :  8)  	AU CLIENT : Genten Raphael(ID : 4)	 POUR LE PRIX DE : 7800€
+											_________________________________________
+
+
+
+SUPPRESSION ACHAT D'UN VEHICULE	[vendredi 5 juin 2020] => : Citröen C1 (ID :  8)  	AU CLIENT : Genten Raphael(ID : 4)	 POUR LE PRIX DE : 7800€
+											_________________________________________
+
+
+
+ACHAT D'UN VEHICULE	[vendredi 5 juin 2020] => : Peugeot 3008 (ID :  9)  	AU CLIENT : Dethier Vanessa(ID : 3)	 POUR LE PRIX DE : 14999€
+											_________________________________________
+
+
+
+ACHAT D'UN VEHICULE	[vendredi 5 juin 2020] => : Renault Clio (ID :  10)  	AU CLIENT : Maes Maxime(ID : 2)	 POUR LE PRIX DE : 8000€
+											_________________________________________
+
+
+
+ACHAT D'UN VEHICULE	[vendredi 5 juin 2020] => : Renault Clio (ID :  11)  	AU CLIENT : Bruce Willis(ID : 5)	 POUR LE PRIX DE : 10000€
+												_________________________________________
+
+
+
+VENTE D'UN VEHICULE	[vendredi 5 juin 2020]: Peugeot 3008 (ID :  9)  	AU CLIENT : Bruce Willis(ID : 5)	 POUR LE PRIX DE : 20000€
+												_________________________________________
+
+
+
+VENTE D'UN VEHICULE	[samedi 6 juin 2020]: Renault Clio (ID :  10)  	AU CLIENT : Dethier Vanessa(ID : 3)	 POUR LE PRIX DE : 8000€

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BD_Voiture" Class="StockVoitureDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Maesm\Desktop\MAES_Maxime_projet_BD_V2\BD\BD_Voiture.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="MAES_Maxime_projet_BD.Properties.Settings" SettingsPropertyName="BD_VoitureConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.StockVoiture" Member="StockVoiture">
+    <Type Name="StockVoiture">
+      <Column Name="idVoiture" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idMarque" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idModele" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idCategorie" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="anneeFabrication" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idCarburant" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idCouleur" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kilometrage" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
